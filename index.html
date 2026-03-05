@@ -1,103 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trevor Wilkinson | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trevor Wilkinson | Portfolio</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background: #f5f5f5;
-      color: #222;
-      line-height: 1.5;
-    }
+<style>
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+body{
+font-family: Arial, sans-serif;
+margin:40px;
+background:#f5f5f5;
+color:#222;
+line-height:1.5;
+}
 
-    header {
-      margin-bottom: 30px;
-    }
+.container{
+max-width:900px;
+margin:0 auto;
+}
 
-    h1 {
-      margin: 0 0 6px 0;
-      font-size: 34px;
-    }
+header{
+margin-bottom:30px;
+}
 
-    .subtitle {
-      margin: 0;
-      font-size: 16px;
-      color: #555;
-    }
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
 
-    .card {
-      background: #fff;
-      padding: 18px;
-      border-radius: 10px;
-      margin-bottom: 16px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-    }
+.header-left{
+display:flex;
+flex-direction:column;
+}
 
-    h2 {
-      margin: 0 0 12px 0;
-      font-size: 22px;
-    }
+.usu-logo{
+height:80px;
+}
 
-    h3 {
-      margin: 0 0 6px 0;
-      font-size: 18px;
-    }
+h1{
+margin:0 0 6px 0;
+font-size:34px;
+}
 
-    ul {
-      margin: 8px 0 0 18px;
-    }
+.subtitle{
+margin:0;
+font-size:16px;
+color:#555;
+}
 
-    .tags {
-      margin-top: 8px;
-      color: #666;
-      font-size: 14px;
-    }
+.card{
+background:#fff;
+padding:18px;
+border-radius:10px;
+margin-bottom:16px;
+box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
 
-    a {
-      color: #0b5fff;
-      text-decoration: none;
-    }
+h2{
+margin:0 0 12px 0;
+font-size:22px;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
+h3{
+margin:0 0 6px 0;
+font-size:18px;
+}
 
-    footer {
-      margin-top: 26px;
-      color: #666;
-      font-size: 14px;
-    }
-  </style>
+ul{
+margin:8px 0 0 18px;
+}
 
+.tags{
+margin-top:8px;
+color:#666;
+font-size:14px;
+}
+
+a{
+color:#0b5fff;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+footer{
+margin-top:26px;
+color:#666;
+font-size:14px;
+}
+
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
-<header>
-  <h1>Trevor Wilkinson</h1>
+<header class="header">
 
-  <p class="subtitle">
-    Information Systems/Data Analytics Student | SQL | Python | Tableau
-  </p>
+<div class="header-left">
+<h1>Trevor Wilkinson</h1>
 
-  <p class="subtitle">
-    <a href="https://www.linkedin.com/in/trevor-wilkinson1/" target="_blank">🔗 LinkedIn</a> •
-    <a href="https://github.com/trevor-wilkinson1" target="_blank">💻 GitHub</a> •
-    <a href="mailto:trevormwilkinson1@gmail.com">✉️ Email</a>
-  </p>
+<p class="subtitle">
+Information Systems/Data Analytics Student | SQL | Python | Tableau
+</p>
+
+<p class="subtitle">
+<a href="https://www.linkedin.com/in/trevor-wilkinson1/" target="_blank">🔗 LinkedIn</a> •
+<a href="https://github.com/trevor-wilkinson1" target="_blank">💻 GitHub</a> •
+<a href="mailto:trevormwilkinson1@gmail.com">✉️ Email</a>
+</p>
+</div>
+
+<img src="usu-logo.png" alt="Utah State University Logo" class="usu-logo">
+
 </header>
-
 
 <div class="card">
 
@@ -106,9 +127,9 @@
 <h3>Weather Data Analysis Pipeline</h3>
 
 <ul>
-  <li>Built a Python application that retrieves real-time weather data using API requests</li>
-  <li>Parsed JSON responses and extracted key metrics including temperature, humidity, and weather conditions</li>
-  <li>Stored results in JSON and CSV formats and generated operational recommendations based on weather forecasts</li>
+<li>Built a Python application that retrieves real-time weather data using API requests</li>
+<li>Parsed JSON responses and extracted key metrics including temperature, humidity, and weather conditions</li>
+<li>Stored results in JSON and CSV formats and generated operational recommendations based on weather forecasts</li>
 </ul>
 
 <div class="tags">
@@ -121,13 +142,12 @@ View code →
 </a>
 </p>
 
-
 <h3>Stock Trading Strategy Analysis</h3>
 
 <ul>
-  <li>Developed a Python program to simulate algorithmic trading strategies using historical stock price data</li>
-  <li>Implemented Mean Reversion and Simple Moving Average strategies based on a 5-day moving average</li>
-  <li>Calculated profit and percentage returns for multiple stocks and exported results to JSON</li>
+<li>Developed a Python program to simulate algorithmic trading strategies using historical stock price data</li>
+<li>Implemented Mean Reversion and Simple Moving Average strategies based on a 5-day moving average</li>
+<li>Calculated profit and percentage returns for multiple stocks and exported results to JSON</li>
 </ul>
 
 <div class="tags">
@@ -141,7 +161,6 @@ View code →
 </p>
 
 </div>
-
 
 <div class="card">
 
@@ -164,7 +183,6 @@ View code →
 </p>
 
 </div>
-
 
 <footer>
 <p>Last updated: March 2026</p>
